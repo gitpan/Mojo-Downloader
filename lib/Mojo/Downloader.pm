@@ -13,7 +13,7 @@ use Storable;
 
 extends 'Mojo::EventEmitter';
 
-our $VERSION = 0.1;
+our $VERSION = 0.2;
 
 has ua => sub { Mojo::UserAgent->new };
 has interval     => 1;

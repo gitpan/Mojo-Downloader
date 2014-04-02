@@ -17,4 +17,5 @@ requires:
   Coro: 0
   Mojo: 0
   Momo: 0
-version: 0.1
+  YAML: 0
+version: 0.2

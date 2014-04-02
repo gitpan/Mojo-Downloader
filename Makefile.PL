@@ -23,10 +23,11 @@ my %WriteMakefileArgs = (
     "AnyEvent" => 0,
     "Coro" => 0,
     "Mojo" => 0,
-    "Momo" => 0
+    "Momo" => 0,
+    "YAML" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.1",
+  "VERSION" => "0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
